@@ -69,12 +69,14 @@ a:hover {
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav_link_div {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 50%;
 }
 
 .nav_link_p_1 {
@@ -85,7 +87,7 @@ a:hover {
   text-align: left;
 }
 
-.store_navigation {
+.store_navigation1 {
   width: 300px;
   display: flex;
   justify-content: space-between;
@@ -93,16 +95,18 @@ a:hover {
   margin-left: 110px;
 }
 
-.navigation {
+
+
+.navigation1 {
   font-family: Open Sans;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #111;
-
   margin-top: 2px;
 }
+
 
 .cart_profile {
   width: 100px;
@@ -399,6 +403,7 @@ h2 {
   height: 588px;
   background: #f8f8f8;
 }
+
 .wooden_toys_div {
   width: 1200px;
   height: 70px;
@@ -441,6 +446,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-position: center
 }
 
 .story_p_1 {
@@ -864,7 +870,6 @@ h2 {
   line-height: 16px;
   text-align: left;
   color: #fff;
-
 }
 
 .footer_nav_div2_a_w {
@@ -880,4 +885,428 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media (max-width: 1440px) {
+  body {
+    width: 100%;
+    background-color: none;
+    margin: 0;
+  }
+
+  header {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  footer {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .s_animals {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .animals {
+    width: 450px;
+  }
+
+  .wooden {
+    width: 450px;
+  }
+
+  .animals_buy {
+    width: 100%;
+  }
+
+  .animals_buy_div {
+    width: 80%;
+  }
+
+  .animals_buy_s {
+    width: 80%;
+  }
+
+  .product {
+    width: 200px;
+    height: 308px;
+  }
+
+  .product_img {
+    margin-left: 14px;
+  }
+
+  .product_btn {
+    margin-left: 59px;
+  }
+
+  .wooden_toys {
+    width: 100%;
+  }
+
+  .wooden_toys_s {
+    width: 80%;
+  }
+
+  .wooden_toys_div {
+    width: 80%;
+  }
+
+  .story {
+    width: 100%;
+  }
+
+  .Available {
+    width: 100%;
+  }
+
+  .Available_subsidiary {
+    width: 900px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .Available_subsidiary_img {
+    width: 517px;
+    height: 372px;
+  }
+
+  .subscribe {
+    width: 100%;
+  }
+
+  .subscribe_div {
+    width: 1049px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .inst {
+    width: 100%;
+    padding-top: 119.8px;
+  }
+
+  .inst_div {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .img_inst {
+    width: 85%;
+    height: 172px;
+  }
+
+  .img_inst_img {
+    width: 152px;
+    height: 152px;
+    background-size: cover;
+  }
+
+  .op_catalog {
+    width: 100%;
+    background-position: center;
+  }
+
+  .footer_nav_div2 {
+    width: 100%;
+  }
+
+  .footer_nav_hr {
+    width: 80%;
+  }
+
+  .footer_nav_div2 {
+    width: 80%;
+
+  }
+
+  .store_navigation1 {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+  }
+
+  .Available_div {
+    width: 100%;
+  }
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    background-color: none;
+    margin: 0;
+  }
+
+  header {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  footer {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .s_animals {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 50px;
+  }
+
+  .animals {
+    width: 570px;
+    height: 188px;
+    margin-bottom: 40px;
+  }
+
+  .wooden {
+    width: 570px;
+    height: 188px;
+    margin-bottom: 40px;
+    margin-left: 8%;
+  }
+
+
+
+  .animals_buy {
+    width: 100%;
+    height: 608px;
+  }
+
+  .animals_buy_div {
+    width: 80%;
+    align-items: center;
+  }
+
+  .animals_buy_s {
+    width: 80%;
+    height: 458px;
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    margin-left: 15%;
+
+  }
+
+
+  .product {
+    width: 200px;
+    height: 238px;
+    margin-bottom: 10px;
+  }
+
+  .product_img {
+    width: 142px;
+    height: 142px;
+    margin-left: 25px;
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
+
+  .product_p {
+    margin-top: 10px;
+  }
+
+  .product_btn {
+    margin-top: 10px;
+  }
+
+
+
+  .product_btn {
+    margin-left: 59px;
+  }
+
+  .wooden_toys {
+    width: 100%;
+    height: 608px;
+
+  }
+
+  .wooden_toys_s {
+    width: 80%;
+    height: 458px;
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    margin-left: 15%;
+  }
+
+  .wooden_toys_div {
+    width: 80%;
+    align-items: center;
+  }
+
+  .story {
+    width: 100%;
+  }
+
+  .Available {
+    width: 100%;
+  }
+
+  .Available_subsidiary {
+    width: 900px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .Available_subsidiary_img {
+    width: 517px;
+    height: 372px;
+  }
+
+  .subscribe {
+    width: 100%;
+  }
+
+  .subscribe_div {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    padding-top: 20px;
+
+  }
+
+  .tg {
+    margin-bottom: 10px;
+    margin-left: 180px;
+  }
+
+  .tg_search {
+    margin-left: 140px;
+  }
+
+  .inst {
+    width: 100%;
+    padding-top: 119.8px;
+  }
+
+  .inst_div {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .img_inst {
+    width: 85%;
+    height: 172px;
+  }
+
+  .img_inst_img {
+    width: 152px;
+    height: 152px;
+    background-size: cover;
+  }
+
+  .op_catalog {
+    width: 100%;
+
+  }
+
+  .footer_nav_div2 {
+    width: 100%;
+  }
+
+  .footer_nav_hr {
+    width: 80%;
+  }
+
+  .footer_nav_div2 {
+    width: 80%;
+
+  }
+
+  .store_navigation1 {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+  }
+
+  .navigation1 {
+    margin-left: 3px;
+  }
+
+  .Available_div {
+    width: 100%;
+
+  }
+
+  .text_1 {
+    width: 600px;
+    height: 128px;
+    padding: 0px 76px 15px 77px;
+    position: relative;
+    margin-left: 0px;
+    margin-bottom: 80px;
+  }
+
+  .text_2 {
+    width: 400.05px;
+    height: 261px;
+    margin-top: 81.39px;
+  }
+
+  .Available_subsidiary_p2 {
+    width: 251px;
+    height: 186px;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #999999;
+  }
+
+  .Available_subsidiary_img {
+    width: 467px;
+    height: 322px;
+    margin-top: 70px;
+
+  }
+
+  .Available_subsidiary {
+    width: 100%;
+    /* padding: 1px 17px 0.8px 0px; */
+  }
+
+  .p_inst {
+    margin-left: 30%;
+  }
+
+  .img_inst {
+    width: 100%;
+    height: 472px;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+  }
+
+  .img_inst_img {
+    width: 172px;
+    height: 172px;
+    background-size: cover;
+  }
+
 }
